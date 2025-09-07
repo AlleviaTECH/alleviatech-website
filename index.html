@@ -253,7 +253,7 @@
             <!-- Quiz Start -->
             <div id="quiz-start" class="text-center">
                 <h3 class="text-2xl font-bold text-deep-charcoal mb-4">Ready to Discover Your NetSuite Potential?</h3>
-                <p class="text-neutral-gray mb-8">This quick 3-question assessment will reveal specific areas where your NetSuite implementation can be optimized for maximum efficiency.</p>
+                <p class="text-neutral-gray mb-8">This quick 10-question assessment will reveal specific areas where your NetSuite implementation can be optimized for maximum efficiency.</p>
                 <button onclick="startQuiz()" class="bg-allevia-blue text-white px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
                     Start Assessment
                 </button>
@@ -265,26 +265,22 @@
                 <div class="quiz-step active" data-step="1">
                     <div class="mb-6">
                         <div class="flex justify-between items-center mb-4">
-                            <h3 class="text-xl font-bold text-deep-charcoal">Question 1 of 3</h3>
-                            <div class="text-sm text-neutral-gray">Progress: 33%</div>
+                            <h3 class="text-xl font-bold text-deep-charcoal">Question 1 of 10</h3>
+                            <div class="text-sm text-neutral-gray">Progress: 10%</div>
                         </div>
                         <div class="w-full bg-light-gray rounded-full h-2">
-                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 33%"></div>
+                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 10%"></div>
                         </div>
                     </div>
-                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">How often do your team members use manual workarounds instead of NetSuite processes?</h4>
+                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">Do you regularly store important business data outside of NetSuite (like Excel spreadsheets, separate databases, or other systems) to complete your daily work?</h4>
                     <div class="space-y-3">
                         <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
-                            <input type="radio" name="q1" value="rarely" class="mr-3">
-                            <span>Rarely - Most processes are done through NetSuite</span>
+                            <input type="radio" name="q1" value="no" class="mr-3">
+                            <span>No - All our business data is managed within NetSuite</span>
                         </label>
                         <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
-                            <input type="radio" name="q1" value="sometimes" class="mr-3">
-                            <span>Sometimes - About half our processes use workarounds</span>
-                        </label>
-                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
-                            <input type="radio" name="q1" value="frequently" class="mr-3">
-                            <span>Frequently - We rely heavily on Excel and manual processes</span>
+                            <input type="radio" name="q1" value="yes" class="mr-3">
+                            <span>Yes - We regularly use external systems and spreadsheets</span>
                         </label>
                     </div>
                 </div>
@@ -293,26 +289,22 @@
                 <div class="quiz-step" data-step="2">
                     <div class="mb-6">
                         <div class="flex justify-between items-center mb-4">
-                            <h3 class="text-xl font-bold text-deep-charcoal">Question 2 of 3</h3>
-                            <div class="text-sm text-neutral-gray">Progress: 67%</div>
+                            <h3 class="text-xl font-bold text-deep-charcoal">Question 2 of 10</h3>
+                            <div class="text-sm text-neutral-gray">Progress: 20%</div>
                         </div>
                         <div class="w-full bg-light-gray rounded-full h-2">
-                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 67%"></div>
+                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 20%"></div>
                         </div>
                     </div>
-                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">How satisfied are your users with NetSuite's performance and usability?</h4>
+                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">Do you copy and paste data from one system to another to enter information into NetSuite?</h4>
                     <div class="space-y-3">
                         <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
-                            <input type="radio" name="q2" value="very-satisfied" class="mr-3">
-                            <span>Very satisfied - Users love working in NetSuite</span>
+                            <input type="radio" name="q2" value="no" class="mr-3">
+                            <span>No - Data flows automatically between our systems</span>
                         </label>
                         <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
-                            <input type="radio" name="q2" value="neutral" class="mr-3">
-                            <span>Neutral - It works but could be better</span>
-                        </label>
-                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
-                            <input type="radio" name="q2" value="frustrated" class="mr-3">
-                            <span>Frustrated - Constant complaints about speed and complexity</span>
+                            <input type="radio" name="q2" value="yes" class="mr-3">
+                            <span>Yes - We frequently copy and paste data between systems</span>
                         </label>
                     </div>
                 </div>
@@ -321,26 +313,190 @@
                 <div class="quiz-step" data-step="3">
                     <div class="mb-6">
                         <div class="flex justify-between items-center mb-4">
-                            <h3 class="text-xl font-bold text-deep-charcoal">Question 3 of 3</h3>
+                            <h3 class="text-xl font-bold text-deep-charcoal">Question 3 of 10</h3>
+                            <div class="text-sm text-neutral-gray">Progress: 30%</div>
+                        </div>
+                        <div class="w-full bg-light-gray rounded-full h-2">
+                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 30%"></div>
+                        </div>
+                    </div>
+                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">Do you use multiple separate systems for inventory management, accounting, or CRM instead of managing everything within NetSuite?</h4>
+                    <div class="space-y-3">
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q3" value="no" class="mr-3">
+                            <span>No - NetSuite handles all our core business functions</span>
+                        </label>
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q3" value="yes" class="mr-3">
+                            <span>Yes - We use separate systems for key business functions</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="quiz-step" data-step="4">
+                    <div class="mb-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-xl font-bold text-deep-charcoal">Question 4 of 10</h3>
+                            <div class="text-sm text-neutral-gray">Progress: 40%</div>
+                        </div>
+                        <div class="w-full bg-light-gray rounded-full h-2">
+                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 40%"></div>
+                        </div>
+                    </div>
+                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">Do you have a separate email inbox or system to manage new orders, returns, or customer inquiries that doesn't integrate with NetSuite?</h4>
+                    <div class="space-y-3">
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q4" value="no" class="mr-3">
+                            <span>No - All customer communications flow through NetSuite</span>
+                        </label>
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q4" value="yes" class="mr-3">
+                            <span>Yes - We manage customer communications outside of NetSuite</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 5 -->
+                <div class="quiz-step" data-step="5">
+                    <div class="mb-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-xl font-bold text-deep-charcoal">Question 5 of 10</h3>
+                            <div class="text-sm text-neutral-gray">Progress: 50%</div>
+                        </div>
+                        <div class="w-full bg-light-gray rounded-full h-2">
+                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">Do you print reports or documents from systems other than NetSuite for your regular business operations?</h4>
+                    <div class="space-y-3">
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q5" value="no" class="mr-3">
+                            <span>No - All our business reports come from NetSuite</span>
+                        </label>
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q5" value="yes" class="mr-3">
+                            <span>Yes - We print reports from multiple different systems</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 6 -->
+                <div class="quiz-step" data-step="6">
+                    <div class="mb-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-xl font-bold text-deep-charcoal">Question 6 of 10</h3>
+                            <div class="text-sm text-neutral-gray">Progress: 60%</div>
+                        </div>
+                        <div class="w-full bg-light-gray rounded-full h-2">
+                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">Do you have to visit multiple places/screens in NetSuite to see the information you need for daily decision-making?</h4>
+                    <div class="space-y-3">
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q6" value="no" class="mr-3">
+                            <span>No - Our dashboards show everything we need in one place</span>
+                        </label>
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q6" value="yes" class="mr-3">
+                            <span>Yes - We have to navigate to multiple screens for information</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 7 -->
+                <div class="quiz-step" data-step="7">
+                    <div class="mb-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-xl font-bold text-deep-charcoal">Question 7 of 10</h3>
+                            <div class="text-sm text-neutral-gray">Progress: 70%</div>
+                        </div>
+                        <div class="w-full bg-light-gray rounded-full h-2">
+                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">Is there business-critical information you need that you cannot easily access from your NetSuite dashboard?</h4>
+                    <div class="space-y-3">
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q7" value="no" class="mr-3">
+                            <span>No - All critical information is easily accessible in NetSuite</span>
+                        </label>
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q7" value="yes" class="mr-3">
+                            <span>Yes - Critical information is difficult to access or missing</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 8 -->
+                <div class="quiz-step" data-step="8">
+                    <div class="mb-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-xl font-bold text-deep-charcoal">Question 8 of 10</h3>
+                            <div class="text-sm text-neutral-gray">Progress: 80%</div>
+                        </div>
+                        <div class="w-full bg-light-gray rounded-full h-2">
+                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">Do you lack a single source of truth that you and your team consistently trust for accurate business data?</h4>
+                    <div class="space-y-3">
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q8" value="no" class="mr-3">
+                            <span>No - NetSuite is our trusted single source of truth</span>
+                        </label>
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q8" value="yes" class="mr-3">
+                            <span>Yes - We struggle with data consistency and trust</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 9 -->
+                <div class="quiz-step" data-step="9">
+                    <div class="mb-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-xl font-bold text-deep-charcoal">Question 9 of 10</h3>
+                            <div class="text-sm text-neutral-gray">Progress: 90%</div>
+                        </div>
+                        <div class="w-full bg-light-gray rounded-full h-2">
+                            <div class="bg-allevia-blue h-2 rounded-full" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">Do your team members frequently ask "where do I find this information?" or struggle to locate data they need in NetSuite?</h4>
+                    <div class="space-y-3">
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q9" value="no" class="mr-3">
+                            <span>No - Our team easily finds what they need in NetSuite</span>
+                        </label>
+                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
+                            <input type="radio" name="q9" value="yes" class="mr-3">
+                            <span>Yes - Team members often struggle to find information</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 10 -->
+                <div class="quiz-step" data-step="10">
+                    <div class="mb-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-xl font-bold text-deep-charcoal">Question 10 of 10</h3>
                             <div class="text-sm text-neutral-gray">Progress: 100%</div>
                         </div>
                         <div class="w-full bg-light-gray rounded-full h-2">
                             <div class="bg-allevia-blue h-2 rounded-full" style="width: 100%"></div>
                         </div>
                     </div>
-                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">How well does your current NetSuite setup support your business growth plans?</h4>
+                    <h4 class="text-lg font-semibold text-deep-charcoal mb-6">Do you spend more than 30 minutes per day on manual data entry or workarounds because NetSuite processes are too complex or slow?</h4>
                     <div class="space-y-3">
                         <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
-                            <input type="radio" name="q3" value="excellent" class="mr-3">
-                            <span>Excellent - Ready to scale without limitations</span>
+                            <input type="radio" name="q10" value="no" class="mr-3">
+                            <span>No - NetSuite processes are efficient and streamlined</span>
                         </label>
                         <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
-                            <input type="radio" name="q3" value="adequate" class="mr-3">
-                            <span>Adequate - Some concerns about handling growth</span>
-                        </label>
-                        <label class="flex items-center p-4 border border-light-gray rounded-lg hover:border-allevia-blue cursor-pointer">
-                            <input type="radio" name="q3" value="concerning" class="mr-3">
-                            <span>Concerning - Will need major changes to grow</span>
+                            <input type="radio" name="q10" value="yes" class="mr-3">
+                            <span>Yes - We spend significant time on manual workarounds</span>
                         </label>
                     </div>
                 </div>
@@ -850,7 +1006,7 @@
                         <svg class="w-4 h-4 mr-3 text-allevia-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
-                        (555) 123-4567
+                        (757) 525-3535
                     </li>
                     <li class="text-gray-400 text-sm">National Service Area</li>
                 </ul>
